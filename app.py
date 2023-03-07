@@ -15,7 +15,7 @@ def init():
 
 # Inference is ran for every server call
 # Reference your preloaded global model variable here.
-@graphsignal.trace_function
+@graphsignal.trace_function(options=graphsignal.TraceOptions(enable_profiling=True))
 def inference(model_inputs:dict) -> dict:
     global model
 

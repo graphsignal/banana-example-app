@@ -2,6 +2,7 @@ from transformers import pipeline
 import torch
 import graphsignal
 
+
 # GRAPHSIGNAL_API_KEY is an environment variable
 # GRAPHSIGNAL_DEPLOYMENT is an environment variable
 graphsignal.configure()

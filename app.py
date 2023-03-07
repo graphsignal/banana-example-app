@@ -3,7 +3,7 @@ import torch
 import graphsignal
 
 # The API key is provided via environment variable GRAPHSIGNAL_API_KEY
-graphsignal.configure(deployment='banana-example-app')
+graphsignal.configure(deployment='banana-example-server')
 
 # Init is ran on server startup
 # Load your model to GPU as a global variable here using the variable name "model"

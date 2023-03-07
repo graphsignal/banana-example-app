@@ -2,7 +2,6 @@ from transformers import pipeline
 import torch
 import graphsignal
 
-
 # The API key is provided via environment variable GRAPHSIGNAL_API_KEY
 graphsignal.configure(deployment='banana-example-app')
 
